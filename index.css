@@ -1,0 +1,55 @@
+body{
+    background-color: #f4f4f4;
+    color: black;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding: 40px;
+}
+h1{
+    margin-bottom: 30px;
+}
+
+.form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px #8d8c8c;
+    width: 300px;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="date"]{
+    width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+button{
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #557192;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    width: 300px;
+}
+button:hover{
+    background-color: #9ebfe5;
+}
+table{
+    width: 30%;
+    margin: 10px;
+    border-collapse: collapse; 
+}
+th, td{
+    border: 1px solid;
+    text-align: center;
+    padding: 5px;
+}
